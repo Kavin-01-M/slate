@@ -715,7 +715,7 @@ function Landing({ goAuth }) {
 /* ---------------- App root ---------------- */
 export default function App() {
   const [view, setView] = useState("landing"); // landing | auth | dashboard
-  const [apiBase, setApiBase] = useState("http://localhost:8080");
+  const [apiBase, setApiBase] = useState("https://slate-backend-shzp.onrender.com");
   const [session, setSession] = useState(null);
 
   const handleAuthed = (data) => {
