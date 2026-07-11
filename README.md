@@ -2,6 +2,18 @@
 
 A full-stack classroom management system: **Students, Classes, Attendance**, with JWT auth and role-based access (`ADMIN`, `TEACHER`, `STUDENT`).
 
+\## 🌐 Live demo
+
+
+
+\- \*\*App:\*\* https://phenomenal-sundae-e15560.netlify.app
+
+\- \*\*API:\*\* https://slate-backend-shzp.onrender.com
+
+
+
+(The backend is on a free tier and may take up to a minute to wake up on the first request after inactivity.)
+
 ## Structure
 
 ```
@@ -36,9 +48,10 @@ See `backend/README.md` and `frontend/README.md` for full details, including aut
 
 ## Stack
 
-- **Backend:** Java 17, Spring Boot 3.3, Spring Data JPA, Spring Security, MySQL, JWT (jjwt)
-- **Frontend:** React 18, Vite
+* **Backend:** Java 17, Spring Boot 3.3, Spring Data JPA, Spring Security, MySQL, JWT (jjwt)
+* **Frontend:** React 18, Vite
 
 ## Security note
 
 Before deploying anywhere real, change `app.jwt.secret` in `backend/src/main/resources/application.properties` and load it from an environment variable instead of committing it.
+
